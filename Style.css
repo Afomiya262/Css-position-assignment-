@@ -1,0 +1,56 @@
+body {
+  : 0;
+  height: 100vh;
+  font-family: Verdana, sans-serif;
+  position: relative;
+  background: #ffdde1; /* Baby pink background */
+}
+
+/* General box styling */
+div {
+  position: absolute;
+  padding: 12px 18px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+div:hover {
+  transform: scale(1.1);
+}
+
+/* Specific positions with new colors */
+.top-left {
+  top: 0;
+  left: 0;
+  background: #ff8ba7;   /* Soft pink-red */
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  background: #84b6f4;   /* Soft sky blue */
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  background: #a8e6cf;   /* Mint green */
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  background: #ffd93d;   /* Soft yellow */
+  color: black; /* Better contrast on yellow */
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #c084fc;   /* Soft purple */
+}
